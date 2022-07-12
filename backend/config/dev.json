@@ -1,0 +1,12 @@
+{
+  "whoami": "local",
+  "dbConfig": {
+    "username": "cpxown",
+    "password": "cpxown!@#$",
+    "database": "teamply",
+    "host": "localhost",
+    "port": "21011",
+    "dialect": "postgres"
+  }
+}
+

@@ -1,0 +1,13 @@
+{
+    "whoami" : "default",
+    "server" : {
+        "port" : 11061
+    },
+    "crypto": {
+        "iterations": 1004,
+        "keylen": 64,
+        "digest": "sha512",
+        "secretkey": "korens.global"
+    },
+    "clientId": "kr.co.teamply.messenger"
+}

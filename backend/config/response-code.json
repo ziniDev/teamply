@@ -1,0 +1,85 @@
+{
+    "success": {
+        "code": 200,
+        "message": "성공"
+    },
+    "created": {
+        "result": true,
+        "code": 201,
+        "message": "생성 완료 하였습니다."
+    },
+    "accepted": {
+        "code": 202,
+        "message": "요청 실패 하였습니다."
+    },
+    "noContent": {
+        "result": true,
+        "code": 204,
+        "message": "데이터가 없습니다.",
+        "data": []
+    },
+    "badRequest": {
+        "code": 400,
+        "message": "잘못된 요청입니다."
+    },
+    "unauthorized": {
+        "code": 401,
+        "message": "서비스 이용 권한이 없습니다."
+    },
+    "forbidden": {
+        "code": 403,
+        "message": "해당 작업에 대한 권한이 없습니다."
+    },
+    "tooManyRequest": {
+        "code": 429,
+        "message": "접속자가 많습니다."
+    },
+    "severError": {
+        "code": 500,
+        "message": "서버 오류!"
+    },
+    "notImplemented": {
+        "code": 501,
+        "message": "해당 내용이 없습니다."
+    },
+    "validationError": {
+        "code": 600,
+        "message": "데이터 검증 오류입니다."
+    },
+    "validationUniqueError": {
+        "code": 601,
+        "message": "이미 존재하는 데이터입니다."
+    },
+    "InvalidIp": {
+        "code": 900,
+        "message": "IP 가 변경 되어 요청에 실패 하였습니다. 로그아웃 후 다시 진행하시기 바랍니다."
+    },
+    "authError": {
+        "code": 901,
+        "message": "사용자 인증 실패 입니다. 로그아웃 후 다시 진행하시기 바랍니다."
+    },
+    "JsonWebTokenError": {
+        "code": 902,
+        "message": "사용자 인증 실패입니다. 로그아웃 후 다시 진행하시기 바랍니다."
+    },
+    "TokenExpiredError": {
+        "code": 903,
+        "message": "로그인 유효기간이 지났습니다. 로그인 후 사용하시기 바랍니다."
+    },
+    "loginError": {
+        "code": 910,
+        "message": "아이디 또는 비밀번호가 틀렸습니다. 확인 후 다시 로그인 하시기 바랍니다."
+    },
+    "available": {
+        "code": 911,
+        "message": "사용이 가능 합니다."
+    },
+    "unusable": {
+        "code": 912,
+        "message": "이미 가입된 이메일 입니다."
+    },
+    "notExistSite": {
+        "code": 913,
+        "message": "회원이 아닙니다."
+    }
+}
